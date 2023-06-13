@@ -125,7 +125,7 @@ func (l *Library) DisplayBooks() {
 
 // Command line interface for users to interact with the library
 func main() {
-	db, err := sql.Open("postgres", "host=localhost port=5432 user=postgres password=1998 dbname=Library sslmode=disable")
+	db, err := sql.Open("postgres", "host=localhost port=5432 user=postgres password=your password dbname=your database sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
